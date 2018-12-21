@@ -17,3 +17,16 @@ $(getScore).ready(function() {
     var score = 0;
     var currElt;
     var currSelection;
+    for (i=0; i<numQues; i++) {
+      currElt = i*numChoi;
+      answered=false;
+      for (j=0; j<numChoi; j++) {
+        currSelection = form.elements[currElt + j];
+        if (currSelection.checked) {
+          answered=true;
+          if (currSelection.value == ansrs[i]) {
+            score++;
+            break;
+          }
+        }
+      }
