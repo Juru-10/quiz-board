@@ -32,20 +32,19 @@
               <input type="radio" name="js1" value="&ltscript&gt">&ltscript&gt
             </div>
           </div>
-          <h3>Q2. What is the correct JavaScript syntax to change the content of the HTML element below?</h3>
-          <p><span>&ltp&gt id="demo">This is a demonstration.&lt/P&gt</p>
+          <h3>Q2. In Nodejs how node based web servers differ from traditional web servers ?</h3>
           <div class="well">
             <div class="radio">
-              <label><input type="radio" name="js2" value="#demo.innerHTML = "Hello World!";">#demo.innerHTML = "Hello World!";</label>
+              <label><input type="radio" name="js2" value="Node based server uses a single threaded model and can serve much larger number of requests compared to any traditional server like Apache HTTP Server.">Node based server uses a single threaded model and can serve much larger number of requests compared to any traditional server like Apache HTTP Server.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="js2" value="document.getElement("p").innerHTML = "Hello World!";">document.getElement("p").innerHTML = "Hello World!";</label>
+              <label><input type="radio" name="js2" value="Node based server process request much faster than traditional server.">Node based server process request much faster than traditional server.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="js2" value="document.getElementByName("p").innerHTML = "Hello World!";">document.getElementByName("p").innerHTML = "Hello World!";</label>
+              <label><input type="radio" name="js2" value="There is no much difference between the two.">There is no much difference between the two.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="js2" value="document.getElementById("demo").innerHTML = "Hello World!";">document.getElementById("demo").innerHTML = "Hello World!";</label>
+              <label><input type="radio" name="js2" value="All Of The Above">All Of The Above</label>
             </div>
           </div>
           <h3>Q3. Where is the correct place to insert a JavaScript?</h3>
@@ -78,19 +77,19 @@
               <label><input type="radio" name="js4" value="Neither at the Internal nor at the External">Neither at the Internal nor at the External</label>
             </div>
           </div>
-          <h3>Q5. How do you write "Hello World" in an alert box?</h3>
+          <h3>Q5. In Node.js from the following which is true about writable stream ?</h3>
           <div class="well">
             <div class="radio">
-              <label><input type="radio" name="js5" value="alert("Hello World");">alert("Hello World");</label>
+              <label><input type="radio" name="js5" value="Output of readable stream can be input to a writable stream.">Output of readable stream can be input to a writable stream.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="js5" value="alertBox("Hello World");">alertBox("Hello World");</label>
+              <label><input type="radio" name="js5" value="writable stream is used for write operation.">writable stream is used for write operation.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="js5" value="msg("Hello World");">msg("Hello World");</label>
+              <label><input type="radio" name="js5" value="Both of the above.">Both of the above.</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="js5" value="msgBox("Hello World");">msgBox("Hello World");</label>
+              <label><input type="radio" name="js5" value="None of the above">None of the above</label>
             </div>
           </div>
         </div>
@@ -171,15 +170,14 @@
             </div>
           </div>
         </div>
-      </form>
-      <input type="button" value="Grade Me" id="getScore">
-      <input type="reset" value="Clear"><p>
-      Number of score out of 10 = <input type= text size 10 name= "mark">
-      Score in percentage = <input type=text size=10 name="percentage"><br>
-      </p>
-      <form method="post" name="Form" onsubmit="" action="">
+        <input type="button" value="Grade" onclick="getScore(form);" id="grd"><br>
+        <input type="reset" value="Clear" id="clr"><br>
+        <hr>
+        <p id="show">
+        Your Score out of 10 = <input type= text size 10 name= "mark"><br>
+        Your Score out of 100 = <input type=text size=10 name="percentage"><br>
+        </p>
       </form>
     </div>
-
   </body>
 </html>
