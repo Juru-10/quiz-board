@@ -11,5 +11,9 @@ ansrs[6]="myFunction()";
 ansrs[7]="if (i == 5)";
 ansrs[8]="if (i != 5)";
 ansrs[9]="while (i <= 10)";
+
 $(getScore).ready(function() {
   $("#getScore").onclick(function (event){
+    var score = 0;
+    var currElt;
+    var currSelection;
