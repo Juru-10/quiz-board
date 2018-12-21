@@ -2,7 +2,7 @@ var numQues = 10;
 var numChoi = 4;
 var ansrs = new Array(10);
 ansrs[0]="&ltscript&gt";
-ansrs[1]="Node based server uses a single threaded model and can serve much larger number of requests compared to any traditional server like Apache HTTP Server.";
+ansrs[1]="Node based server uses a single threaded model and can serve much larger number of requests.";
 ansrs[2]="Both the &lthead&gt section and the &ltbody&gt section are correct";
 ansrs[3]="External";
 ansrs[4]="Both of the above.";
@@ -37,7 +37,7 @@ function getScore(form) {
   form.percentage.value = scoreper + "%";
   form.mark.value=score;
 
-    $(".col-md-6,#grd,#clr").hide();
-    $("#show").show();
+  $(".col-md-6,#grd,#clr").hide();
+  $("#show").show();
 
 }
