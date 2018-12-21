@@ -1,5 +1,5 @@
-# Portfolio
-#### profile,about me,interests,hobbies,..., 5th,Dec,2018
+# Quiz Board
+#### Questions about javascript in multiple questions format; you can answer and get your grade, 21th,Dec,2018
 #### By *Assumpta Uwanyirijuru*
 ## Description
 This project will help to test students on the their JavaScript course knowledge.
