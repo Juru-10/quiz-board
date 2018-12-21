@@ -30,3 +30,13 @@ $(getScore).ready(function() {
           }
         }
       }
+      if (answered ===false){alert("Do answer all the questions, Please") ;return false;}
+    }
+
+    var scoreper = Math.round(score/numQues*100);
+    form.percentage.value = scoreper + "%";
+    form.mark.value=score;
+
+
+  });
+});
